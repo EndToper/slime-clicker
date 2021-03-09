@@ -1,6 +1,6 @@
 from emailer import check
 import pytest
-def test_5():
+def test_1():
     assert check("Email@123@lol@email.ru") == False
     assert check('Email@[lol]/ru') == False
     assert check('Email@lol/ru') == False
